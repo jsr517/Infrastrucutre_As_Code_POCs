@@ -2,7 +2,7 @@ variable "asw_key_pair" {
   default = "path to .pem file"
 }
 
-provider "aws" {     // Chosse cloud provider
+provider "aws" {     // Chosse cloud provider as AWS
   region = "us-east-1"
 }
 
